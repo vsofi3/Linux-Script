@@ -1,0 +1,2 @@
+tr -s  '[:blank:]' '\n'  | tr '[:upper:]' '[:lower:]' | sort  | uniq -c
+
